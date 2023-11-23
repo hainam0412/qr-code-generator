@@ -3,7 +3,7 @@ export type QrCodeRender = 'canvas' | 'svg'
 
 export interface QrCodeProps {
     value: string;
-    size?: number;
+    size: number;
     'render-as'?: QrCodeRender;
     margin?: number;
     level?: QrCodeLevel;
